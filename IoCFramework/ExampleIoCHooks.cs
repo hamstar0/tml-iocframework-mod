@@ -10,7 +10,7 @@ namespace IoCFramework {
 	public class ExampleIoCHooks : ILoadable {
 		void ILoadable.OnModsLoad() {
 			// Apply bindings here:
-			IoCHooks.Bind( typeof(Mod), "PostDrawInterface_Method", this.MyPostDrawInterface );
+			IoCHooks.Bind( typeof(Mod), "PostDrawInterface", this.MyPostDrawInterface );
 		}
 
 		void ILoadable.OnModsUnload() { }
