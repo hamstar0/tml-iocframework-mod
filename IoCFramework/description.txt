@@ -1,0 +1,1 @@
+Allows binding tML hooks within your own classes, thus Inversion of Control (IoC).
